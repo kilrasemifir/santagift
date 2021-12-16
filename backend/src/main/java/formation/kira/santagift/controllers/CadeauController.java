@@ -13,8 +13,11 @@ import java.util.List;
 @CrossOrigin
 public class CadeauController {
 
-    @Autowired
     private CadeauService service;
+
+    public CadeauController(CadeauService service) {
+        this.service = service;
+    }
 
     @GetMapping("")
     public List<Cadeau> findAll() {
