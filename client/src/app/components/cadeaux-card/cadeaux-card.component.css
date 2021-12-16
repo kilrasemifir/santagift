@@ -1,0 +1,29 @@
+.cadeau-card {
+    background: url("https://images.all-free-download.com/images/graphiclarge/christmas_repeating_pattern_symbol_elements_collection_design_6826551.jpg") ;
+    border-radius: 10px;
+    width: 20vw;
+    height: 25vw;
+    box-shadow: 5px 5px 5px #111111;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.cadeau-card img{
+    max-width: 100%;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.cadeau-card h2{
+    color: white;
+    text-align: center;
+    font-size: 2em;
+    padding: 0px;
+    margin: 0px;
+}
+
+.cadeau-card p{
+    color: white;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+}

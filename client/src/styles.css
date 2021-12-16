@@ -1,1 +1,5 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+    margin: 0%;
+    padding: 0%;
+    background: url("https://i.pinimg.com/736x/2f/a8/3c/2fa83cc63e877051e90c736b01c8a27a--christmas-pattern-background-patterns-background.jpg");
+}

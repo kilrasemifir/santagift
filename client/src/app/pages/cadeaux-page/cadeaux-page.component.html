@@ -1,0 +1,5 @@
+<div class="cadeau-header">
+    <h1>Hohoh vos cadeaux!</h1>
+</div>
+<app-cadeau-liste [cadeaux]="cadeaux" (deleteCard)="onDeleteCard($event)"></app-cadeau-liste>
+<app-cadeau-form (save)="save($event)"></app-cadeau-form>

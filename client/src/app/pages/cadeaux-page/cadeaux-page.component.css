@@ -1,0 +1,14 @@
+.cadeau-header {
+    background: url("https://images.all-free-download.com/images/graphiclarge/christmas_repeating_pattern_symbol_elements_collection_design_6826551.jpg") ;
+    border-radius: 10px;
+    margin: 5px;
+    width: calc(100vw-10px);
+    height: 100px;
+    color: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cadeau-header h1{
+    font-size: 3em;
+}

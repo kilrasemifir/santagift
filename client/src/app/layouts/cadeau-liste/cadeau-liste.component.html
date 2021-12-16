@@ -1,0 +1,4 @@
+<div class="cadeau-liste">
+    <app-cadeaux-card *ngFor="let cadeau of cadeaux" [cadeau]="cadeau" (delete)="onDeleteCard($event)"></app-cadeaux-card>
+
+</div>
